@@ -1115,7 +1115,7 @@ code {
 .avatar,
 .logo {
   border-radius: 50%;
-  border: 2px solid #FFF;
+  /* border: 2px solid #FFF; */
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3); }
 
 hr {
@@ -1259,6 +1259,8 @@ hr {
   color: #FFF;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
   .panel-inverted a {
+    font-size: 20px;
+    font-weight: 350;
     color: #FFF; }
 
 .cover-navigation {
@@ -1295,7 +1297,7 @@ hr {
   background: none; }
 
 .btn, .navigation__item a {
-  padding: 7px 13px;
+  padding:9px 13px;
   border: 1px solid #006699;
   border-radius: 20px;
   font-size: .9em;
@@ -1379,7 +1381,7 @@ nav {
 .navigation--social {
   margin-left: 0em; }
   .navigation--social a {
-    padding: 6px 8px 6px 9px; }
+    padding: 5px 7px 5px 8px; }
     .navigation--social a .label {
       display: none; }
     .navigation--social a .icon {
@@ -1552,7 +1554,7 @@ input[type="tel"] {
     margin-left: 430px; } }
 @media all and (max-width: 1100px) {
   .panel-cover__logo {
-    width: 70px; }
+    width: 90px; }
 
   .panel-title {
     font-size: 2em; }
